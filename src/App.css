@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  margin: 10vmax auto;
+  width: 450px;
+  height: 600px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topbar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar{
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  margin-right: 10px;
+}
+
+.searchIcon{
+  height: 40px;
+  background-color: white;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.weather-image{
+  display: flex;
+  justify-content: center;
+}
+
+.temprature{
+  font-size: 55px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.city{
+  font-size: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.data-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 20px;
+
+}
